@@ -1,0 +1,35 @@
+/* Banner.css */
+
+.banner-container {
+    background: url('/src/components/img/e14cc8_9c363435f5444fe8b5760442fa0c9dba~mv2.webp') no-repeat center center;
+    background-size: cover;
+    height: 400px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    color: rgba(0, 0, 0, 0.5) ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
